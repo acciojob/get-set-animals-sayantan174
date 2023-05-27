@@ -9,12 +9,18 @@ class Animal {
 }
 
 class Dog extends Animal {
+	constructor(species){
+		this.species=species;
+	}
 	bark(){
 		console.log(`The ${this.species} makes a sound woof`)
 	}
 }
 
 class Cat extends Animal {
+	constructor(species){
+		this.species=species;
+	}
 	purr(){
 		console.log(`The ${this.species} makes a sound purr`)
 	}
